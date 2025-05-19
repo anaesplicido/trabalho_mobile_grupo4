@@ -3,40 +3,55 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Alemanha</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />  
+  <title>Alemanha</title>
+
+  <!-- Fonte Abel do Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <button class="theme-toggle" aria-label="Alternar tema claro/escuro">Modo Escuro</button>
 
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
   <header>
     <img
-    src="https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg"
-    alt="Bandeira da Alemanha"
-    class="flag"
-  />
+      src="https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg"
+      alt="Bandeira da Alemanha"
+      class="flag"
+    />
     <h1>Bem-vindo à Alemanha</h1>
   </header>
 
   <main>
     <p class="intro">Descubra a beleza, cultura e história fascinante da Alemanha, um dos países mais vibrantes e diversificados da Europa.</p>
-    <section class="about">
+
+    <section class="about" id="sobre">
       <h2>Sobre a Alemanha</h2>
       <p>A Alemanha é conhecida por sua rica história, arquitetura impressionante, paisagens naturais estonteantes e cultura vibrante. É referência mundial em inovação, música clássica e festivais tradicionais, como a Oktoberfest.</p>
       <p>Das vibrantes cidades como Berlim e Munique até as pitorescas vilas às margens do Reno, a Alemanha oferece experiências inesquecíveis para todos os gostos.</p>
     </section>
-    <section class="gallery" aria-label="Galeria de imagens da Alemanha">
-      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Castelo Neuschwanstein" title="Castelo Neuschwanstein" />
-      <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Portão de Brandemburgo" title="Portão de Brandemburgo" />
-      <img src="https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Floresta Negra" title="Floresta Negra" />
-      <img src="https://images.unsplash.com/photo-1500534672395-0b2f94e1a0c0?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Prato típico alemão" title="Prato típico alemão" />
+
+    <section class="gallery" id="galeria" aria-label="Galeria de imagens da Alemanha">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Castelo Neuschwanstein" title="Castelo Neuschwanstein" />
+      <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=800&q=80" alt="Portão de Brandemburgo" title="Portão de Brandemburgo" />
+      <img src="https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80" alt="Floresta Negra" title="Floresta Negra" />
+      <img src="https://images.unsplash.com/photo-1500534672395-0b2f94e1a0c0?auto=format&fit=crop&w=800&q=80" alt="Prato típico alemão" title="Prato típico alemão" />
     </section>
   </main>
 
-  <footer>
+  <footer id="contato">
     <p>&copy; 2025 Natanael.</p>
   </footer>
 

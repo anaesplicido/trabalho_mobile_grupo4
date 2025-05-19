@@ -1,5 +1,5 @@
+/* Reset e configurações básicas */
 * {
-
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,6 +14,7 @@ body {
   padding: 1rem;
 }
 
+
 header, footer {
   text-align: center;
   padding: 2rem 0;
@@ -21,15 +22,15 @@ header, footer {
   transition: background-color 0.3s;
 }
 
+header h1 {
+  font-size: 2.5rem;
+  color: #222;
+}
+
 header .flag {
   width: 100px;
   display: block;
   margin: 0 auto 1rem;
-}
-
-header h1 {
-  font-size: 2.5rem;
-  color: #222;
 }
 
 .intro {
@@ -53,6 +54,47 @@ header h1 {
   margin-bottom: 1rem;
   color: #444;
 }
+
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar li a:hover {
+  color: #ffcc00;
+}
+
+/* Tema escuro */
+body.dark-mode .navbar {
+  background-color: #1a1a1a;
+}
+
+body.dark-mode .navbar li a {
+  color: #ffffff;
+}
+
+body.dark-mode .navbar li a:hover {
+  color: #ffcc00;
+}
+
 
 .gallery {
   display: grid;
@@ -101,17 +143,25 @@ footer {
 /* Tema escuro */
 body.dark-mode {
   background-color: #121212;
-  color: #f0f0f0;
+  color: #ffffff;
 }
 
 body.dark-mode header,
 body.dark-mode footer {
   background-color: #1e1e1e;
+  color: #ffffff;
 }
 
 body.dark-mode .about {
   background-color: #1a1a1a;
-  color: #e0e0e0;
+  color: #ffffff;
+}
+
+body.dark-mode .intro,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode p {
+  color: #ffffff;
 }
 
 body.dark-mode .theme-toggle {
@@ -121,4 +171,9 @@ body.dark-mode .theme-toggle {
 
 body.dark-mode .theme-toggle:hover {
   background-color: #ccc;
+}
+
+body.dark-mode,
+body.dark-mode h1, h2, p {
+  color: #ffffff;
 }
