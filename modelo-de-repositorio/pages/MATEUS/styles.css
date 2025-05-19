@@ -1,14 +1,51 @@
-body{
-    background-color: #00ff3b;
-}
-
-nav{
-    width: 391px;
-    height: 300px;
-    background-color: #230cd2;
-}
-
-.brasao{
-    width: 300px;
-
-}
+/* Basic reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar container */
+  nav {
+    background-color: #0812c4;
+    overflow: hidden; /* Clears floats */
+  }
+  
+  /* Logo */
+  .logo {
+    float: left;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  /* Navigation links */
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  /* Hover effect for links */
+  nav a:hover {
+    background-color: #00a700;
+  }
+  
+  /* Clear floats after the nav */
+  nav::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Brasão image styling */
+  .brasao {
+    float: right;
+    height: 60px; /* Adjust height as needed */
+    margin: 8px; /* Add some margin */
+  }
+  
