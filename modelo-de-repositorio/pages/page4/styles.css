@@ -38,6 +38,26 @@ body {
     
         text-align: center;
         background-color: dimgray;
-        height: 180px;
+        height: 250px;
         width: 390px;
         }
+
+        .peixe{
+    
+            text-align: center;
+            background-color: dimgray;
+            height: 250px;
+            width: 390px;
+            }
+
+            .nomedobagulho{
+text-align: center;
+background-image: url(assets/bandeiradoreinounido.webp);
+opacity: 0.5;
+height: 180px;
+width: 300px;
+
+image-resolution: 100px;
+
+
+            }
