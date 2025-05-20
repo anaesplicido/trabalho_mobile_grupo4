@@ -9,4 +9,4 @@ Os países escolhidos para nosso app foram os:
 - Egito - Nicolly
 - EUA - Ana Clara
 - Reino Unido - Gustavo
-- Alemãnha - Natanael 
+- Alemanha - Natanael 
