@@ -49,3 +49,12 @@ body {
     margin: 8px; /* Add some margin */
   }
   
+  .card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+    padding: 20px;
+    width: 250px;
+    transition: box-shadow 0.3s ease;
+    cursor: default;
+  }
