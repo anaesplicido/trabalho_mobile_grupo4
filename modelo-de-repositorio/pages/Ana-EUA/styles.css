@@ -18,6 +18,60 @@ header .logo h1 {
     margin: 0;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .content-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    padding: 0 8px;
+  }
+  
+  
+  .text-left {
+    flex: 1 1 50%;
+    padding-right: 12px;
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  .image-right {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .image-right img {
+    max-width: 240px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 74, 173, 0.3);
+    object-fit: cover;
+  }
+  
+  
+  @media (max-width: 400px) {
+    .content-row {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .text-left {
+      padding-right: 8px;
+      font-size: 0.9rem;
+    }
+    .image-right img {
+      max-width: 200px;
+    }
+  }
+  
+
 footer {
     text-align: center;
     padding: 20px;
