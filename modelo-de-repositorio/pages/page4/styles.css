@@ -1,7 +1,7 @@
 body {
     background-color: rgb(19, 19, 144);
     color: aliceblue;
-    
+    text-align: center;
     }
     
     #titulo {
@@ -12,16 +12,16 @@ body {
     
     text-align: left;
     background-color: rgb(165, 0, 0);
-    height: 130px;
-    width: 370px;
+    height: 250px;
+    width: 800px;
     }
     
     .stone{
     
     text-align: center;
     background-color: dimgray;
-    height: 250px;
-    width: 390px;
+    height: 500px;
+    width: 800px;
     }
     
     #fotoetexto{
@@ -46,8 +46,8 @@ body {
     
             text-align: center;
             background-color: dimgray;
-            height: 250px;
-            width: 390px;
+            height: 500px;
+            width: 800px;
             }
 
             .nomedobagulho{
@@ -61,3 +61,193 @@ image-resolution: 100px;
 
 
             }
+
+            .actionfigures {
+
+   
+   
+                text-align: center;        
+                    justify-content: space-around ;
+                    
+                
+                position: absolute;
+                    display: flex;
+                
+            }                
+
+            .slider{
+
+                width: 800px;
+                height: 800px;
+                overflow: hidden;
+                
+                    
+                    margin: 0 auto;
+                }
+                
+                .slide {
+                
+                width: 800px;
+                height:  800px;
+                text-align: center;
+                display: flex;
+                }
+                
+                
+                .slide input {
+                
+                
+                    display: none;
+                }
+                
+                .slidekomi {
+                
+                width: 800px;
+               
+                }
+                
+                .slideshinobu {
+                
+                    width: 800px;
+                    height: 800px;
+                    }
+                
+                    
+                .slidejinx {
+                
+                        width:800px;
+                        height: 800px;
+                        }
+                
+                .slidehinata {
+                
+                            width: 800px;
+                            height: 800px;
+                            }
+                
+                            .slide img {
+                
+                width: 800px;
+                height: 800px;
+                
+                            }
+                
+                
+                .manual {
+                
+                position: absolute;
+                width: 400px;
+                
+                display: flex;
+                justify-content: center;
+                margin-top: 360px;
+                
+                }
+                
+                .manual-btn {
+                
+                
+                    border: 2px solid #000000;
+                
+                    padding: 5px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: 1s;
+                
+                }
+                
+                .manual-btn:not(:last-child) {
+                
+                
+                }
+                
+                #radio1:checked ~ .first{
+                
+                    margin-left: 0%;
+                }
+                
+                #radio2:checked ~ .first {
+                
+                    margin-left: -100.5%;
+                }
+                
+                #radio3:checked ~.first {
+                
+                    margin-left: -200%;
+                }
+                
+                #radio4:checked ~.first {
+                
+                    margin-left: -300%;
+                }
+
+                #radio5:checked ~.first {
+                
+                    margin-left: -400%;
+                }
+                
+                .navigation-auto div{
+                border: 2px solid #20f8ff;
+                
+                padding: 5px;
+                
+                border-radius: 10px;
+                
+                cursor: pointer;
+                transition: 1s;
+                
+                
+                
+                }
+                
+                
+                
+                .navigation-auto{ 
+                
+                width: 400px;
+                margin-top: 360px;
+                display: flex;
+                    position: absolute;
+                
+                    justify-content: center;
+                }
+                
+                .navigation-auto div:not(:last-child) {
+                
+                    margin-right: 40px;
+                }
+                
+                #radio1:checked ~ .navigation-auto .auto-btn1{ 
+                
+                
+                background-color: aliceblue;
+                
+                }
+                
+                #radio1:checked ~ .navigation-auto .auto-btn1{ 
+                
+                
+                    background-color: aliceblue;
+                    
+                    }
+                
+                    #radio2:checked ~ .navigation-auto .auto-btn2{ 
+                
+                
+                        background-color: aliceblue;
+                        
+                        }
+                
+                        #radio3:checked ~ .navigation-auto .auto-btn3{ 
+                
+                
+                            background-color: aliceblue;
+                            
+                            }
+                
+                            #radio4:checked ~ .navigation-auto .auto-btn4{ 
+                
+                
+                                background-color: aliceblue;
+                                
+                                }
