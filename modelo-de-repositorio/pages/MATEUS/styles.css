@@ -2,6 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #23d423;
   }
   
   /* Navbar container */
@@ -38,7 +39,7 @@ body {
   /* Clear floats after the nav */
   nav::after {
     content: "";
-    clear: both;
+    clear: both;  
     display: table;
   }
   
