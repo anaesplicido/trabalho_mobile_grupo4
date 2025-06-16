@@ -10,3 +10,9 @@ Os países escolhidos para nosso app foram os:
 - EUA - Ana Clara
 - Reino Unido - Gustavo
 - Alemanha - Natanael 
+
+A página inicial do app, no caso sua home, é uma página que contém o cadastro do usuário (E-mail e senha), uma navbar responsiva que te leva as outras telas do aplicativo, referenciado pelo nome de cada país, e para a página Lista de países e o footer.
+
+
+A Lista de Países é uma das abas príncipais do app, ela abrange um breve resumo sobre cada país incluido no aplicativo, resaltando sua história e persuadindo o usuário a ver o app do início ao fim, além disso, cada nação está referenciada com a sua devida bandeira, como nos prints abaixo:
+
