@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #23d423;
+  }
+  
+  nav {
+    background-color: #0812c4;
+    overflow: hidden; 
+  }
+  
+  .logo {
+    float: left;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #00a700;
+  }
+  
+  nav::after {
+    content: "";
+    clear: both;  
+    display: table;
+  } 
+  
+  .brasao {
+    float: right;
+    height: 60px; 
+    margin: 8px; 
+  }
