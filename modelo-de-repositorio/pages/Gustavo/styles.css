@@ -170,6 +170,16 @@ width: 620px;
                 
                     margin-left: -400%;
                 }
+
+                #radio6:checked ~.first {
+                
+                    margin-left: -500%;
+                }
+
+                #radio7:checked ~.first {
+                
+                    margin-left: -600%;
+                }
                 
                 .navigation-auto div{
                 border: 2px solid #20f8ff;
@@ -244,3 +254,18 @@ width: 620px;
                                 background-color: aliceblue;
                                 
                                 }
+
+                                              
+                            #radio6:checked ~ .navigation-auto .auto-btn6{ 
+                
+                
+                                background-color: aliceblue;
+                                
+                                }
+
+                                #radio7:checked ~ .navigation-auto .auto-btn7{ 
+                
+                
+                                    background-color: aliceblue;
+                                    
+                                    }
