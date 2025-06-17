@@ -1,26 +1,23 @@
-/* Basic reset */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #23d423;
   }
   
-  /* Navbar container */
   nav {
     background-color: #0812c4;
-    overflow: hidden; /* Clears floats */
+    overflow: hidden; 
   }
   
-  /* Logo */
   .logo {
     float: left;
     color: white;
-    font-size: 24px;
+    font-size: 50px;
     font-weight: bold;
     padding: 14px 20px;
     text-decoration: none;
   }
   
-  /* Navigation links */
   nav a {
     float: left;
     display: block;
@@ -30,23 +27,20 @@ body {
     text-decoration: none;
   }
   
-  /* Hover effect for links */
   nav a:hover {
     background-color: #00a700;
   }
   
-  /* Clear floats after the nav */
   nav::after {
     content: "";
-    clear: both;
+    clear: both;  
     display: table;
-  }
+  } 
   
-  /* Brasão image styling */
   .brasao {
     float: right;
-    height: 60px; /* Adjust height as needed */
-    margin: 8px; /* Add some margin */
+    height: 60px; 
+    margin: 8px; 
   }
   .card {
     background-color: #fff;
@@ -78,14 +72,11 @@ body {
   .card button {
     background-color: #007bff;
     border: none;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 12px 24px;
     border-radius: 25px;
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  .card button:hover {
-    background-color: #0056b3;
   }
 

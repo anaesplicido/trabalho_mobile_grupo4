@@ -1,33 +1,33 @@
 body {
   font-family: 'Abel', sans-serif;
   margin: 20px;
-  background: linear-gradient(135deg, #e0e8f7, #ffffff);
+  background: linear-gradient(135deg, #f3f3f3, #ffffff); /* Um cinza claro para um fundo neutro */
   color: #333;
 }
 header h1 {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 1rem;
-  color: red;
-  text-shadow: 1px 1px 2px #bdd7ea;
+  color: #ff0000; /* Vermelho da bandeira */
+  text-shadow: 1px 1px 2px #f3f3f3; /* Sombra mais clara para contraste */
 }
 main {
   max-width: 900px;
   margin: 0 auto;
-  background: wheat;
+  background: #f9f9f9; /* Um tom claro para o fundo do conteúdo */
   padding: 2rem;
   border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 .intro {
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
   line-height: 1.6;
-  color: firebrick;
+  color: #333; /* Mantém o texto escuro para legibilidade */
 }
 h2 {
-  color: #2980b9;
-  border-bottom: 2px solid #2980b9;
+  color: #000000; /* Preto da bandeira */
+  border-bottom: 2px solid #ffcc00; /* Dourado da bandeira */
   padding-bottom: 0.3em;
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -39,8 +39,8 @@ h2 {
   height: auto;
   margin: 1rem auto 1.5rem auto;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-  border: 2px solid #2980b9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border: 2px solid #ffcc00; /* Dourado da bandeira */
 }
 ul {
   margin-left: 1.5rem;
@@ -50,6 +50,5 @@ footer {
   text-align: center;
   margin-top: 3rem;
   font-size: 0.9rem;
-  color: firebrick;
+  color: #ff0000; /* Vermelho da bandeira */
 }
-
