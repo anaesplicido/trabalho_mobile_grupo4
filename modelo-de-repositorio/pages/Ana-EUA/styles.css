@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ff0000;
 }
 
 
@@ -25,6 +25,7 @@ header .logo h1 {
   }
   
   
+
   .content-row {
     display: flex;
     flex-direction: row;
@@ -105,7 +106,7 @@ header .logo h1 {
   
   
   @media (max-width: 400px) {
-    .content-row {
+    .content-row2 {
       flex-direction: row;
       justify-content: space-between;
     }
@@ -117,7 +118,6 @@ header .logo h1 {
       max-width: 200px;
     }
   }
-
   
 
 footer {
