@@ -16,3 +16,5 @@ A página inicial do app, no caso sua home, é uma página que contém o cadastr
 
 A Lista de Países é uma das abas príncipais do app, ela abrange um breve resumo sobre cada país incluido no aplicativo, resaltando sua história e persuadindo o usuário a ver o app do início ao fim, além disso, cada nação está referenciada com a sua devida bandeira, como nos prints abaixo:
 
+
+A página Brasil, concluída pelo aluno Mateus, contém a capital, a bandeira, a população e a moeda, com um extra, sobre o atual presidente nacional. 
