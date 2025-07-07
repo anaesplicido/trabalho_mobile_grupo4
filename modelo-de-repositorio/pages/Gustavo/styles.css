@@ -2,15 +2,32 @@ body {
     background-color: rgb(19, 19, 144);
     color: aliceblue;
     text-align: center;
+
+    
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     }
     
     #titulo {
          text-align: center;
+
+
+         
+
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+
+
     }
     
     .reinounidoresumo{
     
-    text-align: left;
+    text-align: center;
     background-color: rgb(165, 0, 0);
     height: 250px;
     width: 800px;
@@ -48,17 +65,6 @@ body {
             background-color: dimgray;
             height: 500px;
             width: 800px;
-            }
-
-            .nomedobagulho{
-text-align: center;
-background-image: url(assets/bandeiradoreinounido.webp);
-opacity: 0.5;
-height: 315px;
-width: 620px;
-
-
-
             }
 
             .actionfigures {
@@ -171,6 +177,8 @@ width: 620px;
                     margin-left: -400%;
                 }
 
+
+        
                 #radio6:checked ~.first {
                 
                     margin-left: -500%;
@@ -269,3 +277,12 @@ width: 620px;
                                     background-color: aliceblue;
                                     
                                     }
+
+
+                                    .bandeira{
+    
+                                        text-align: center;
+                                        background-color: dimgray;
+                                        height: 857px;
+                                        width: 800px;
+                                        }
