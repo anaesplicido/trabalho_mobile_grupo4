@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #23d423;
+  }
+  
+  nav {
+    background-color: #0812c4;
+    overflow: hidden; 
+  }
+  
+  .logo {
+    float: left;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #00a700;
+  }
+  
+  nav::after {
+    content: "";
+    clear: both;  
+    display: table;
+  } 
+  
+  .brasao {
+    float: right;
+    height: 60px; 
+    margin: 8px; 
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-left: 13%;
+    margin-top: 2%;
+  }
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  .card h2 {
+    margin: 16px 0 8px;
+    font-size: 1.4rem;
+    color: #333;
+  }
+  .card p {
+    margin: 0 20px 16px;
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+  .card button {
+    background-color: #007bff;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
