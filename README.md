@@ -19,8 +19,17 @@ A Lista de Países é uma das abas príncipais do app, feita pela Ana Clara,  el
 
 A página Brasil, concluída pelo aluno Mateus, contém a capital, a bandeira, a população e a moeda, com um extra, sobre o atual presidente nacional. Assim como nas imagens mostradas a baixo:
 
+A página sobre o Egito, desenvolvida por Nicolly, apresenta informações como capital, população, moeda e curiosidades culturais.  
+O design foi inspirado na estética egípcia, com elementos visuais que ajudam na imersão do usuário.  
 
-A página descritiva sobre o Egito, produzida pela Nicolly, tem a capital, a bandeira, a população e a moeda... . Assim como mostradas nas imahgens a baixo:
+Abaixo, seguem algumas imagens da tela criada:
+
+<p align="center">
+  <img src="modelo-de-repositorio/pages/NicollyEgito/assets/informacoes.png" alt="Informações do Egito" width="300" />
+  <img src="modelo-de-repositorio/pages/NicollyEgito/assets/curiosidades.png" alt="Curiosidades do Egito" width="300" />
+  <img src="modelo-de-repositorio/pages/NicollyEgito/assets/cleopatra.png" alt="Cleópatra" width="300" />
+</p>
+
 
 
 A aba sobre o Estados Unidos da América, feita pela Ana Clara, descreve um pouco sobre a capital, a bandeira, a população e a moeda,m assim como na prototipação. Assim como as imagens a seguir:
