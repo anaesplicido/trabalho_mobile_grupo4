@@ -41,6 +41,7 @@
     align-items: center;
     background-color: #202dd7;
     padding: 10px 20px;
+    
 }
 
 .navbar .logo {
@@ -81,7 +82,7 @@
     margin: 3px 0;
 }
 
-/* Media Queries */
+
 @media (max-width: 768px) {
     .nav-links {
         display: none;
@@ -166,8 +167,9 @@
   
   footer {
     text-align: center;
-    padding: 20px;
+    padding: 50px;
     background-color: #0016A4;
     color: white;
+    position: fixed;
   }
   
