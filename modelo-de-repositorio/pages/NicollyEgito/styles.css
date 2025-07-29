@@ -129,6 +129,7 @@ body {
   height: auto;
   border-radius: 15px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+  flex-direction: column;
 }
 
 .descricao-curiosidade {
@@ -138,15 +139,30 @@ body {
 
 .descricao-curiosidade h2 {
   font-size: 1.5em;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-weight: bold;
   text-shadow: 1px 1px 2px #000;
 }
 
-.descricao-curiosidade p {
+.descricao-curiosidade ul {
+  list-style: none;
+  padding-left: 20px;
   font-size: 1em;
   line-height: 1.6;
-  text-shadow: 1px 1px 2px #000;
+}
+
+.descricao-curiosidade li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 25px;
+}
+
+.descricao-curiosidade li::before {
+  content: "◆";
+  color: #FFD700;
+  position: absolute;
+  left: 0;
+  font-weight: bold;
 }
 
 .quadro.cleopatra {
@@ -197,4 +213,3 @@ body {
   line-height: 1.6;
   text-shadow: 1px 1px 2px #000;
 }
-

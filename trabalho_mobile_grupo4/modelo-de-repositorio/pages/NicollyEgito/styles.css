@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #e4d1b9, #d3a15c);
+  font-family: 'Georgia', serif;
+  color: white;
+  min-height: 100vh;
+  padding-top: 100px; 
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: #9e6d46;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  border-bottom: 4px solid #FFDD00;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 0;
+  z-index: 1000;
+}
+
+.bandeira {
+  width: 80px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+.bandeira:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.titulo {
+  font-size: 3.5em;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9);
+  letter-spacing: 5px;
+  transition: color 0.3s ease;
+  user-select: none;
+}
+
+.titulo:hover {
+  color: #FFD700;
+}
+
+.quadro {
+  display: flex;
+  background-color: #a15c2f;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 900px;
+  height: 250px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.informacoes {
+  flex: 1;
+  padding: 20px;
+}
+
+.subtitulo {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.info-lista {
+  list-style: none;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+.info-lista li {
+  margin-bottom: 8px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.info-lista li::before {
+  content: "•";
+  color: #FFD700;
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+.imagem-piramide {
+  flex: 1;
+  max-width: 50%;
+}
+
+.imagem-piramide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 15px 15px 0;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.imagem-piramide img:hover {
+  transform: scale(1.05);
+}
+
+.quadro.curiosidade {
+  display: flex;
+  background-color: #a75b28;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 900px;
+  padding: 20px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+}
+
+.descricao-curiosidade {
+  flex: 1;
+  color: white;
+}
+
+.descricao-curiosidade h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.descricao-curiosidade p {
+  font-size: 1em;
+  line-height: 1.6;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.quadro.cleopatra {
+  display: flex;
+  background-color: #a75b28;
+  margin: 10px auto 30px;
+  width: 90%;
+  max-width: 700px;
+  height: 300px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.imagem-cleopatra {
+  flex: 0 0 45%;
+  padding: 15px;
+}
+
+.imagem-cleopatra img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.imagem-cleopatra img:hover {
+  transform: scale(1.05);
+}
+
+.descricao-cleopatra {
+  flex: 0 0 55%;
+  padding: 20px;
+  color: white;
+}
+
+.descricao-cleopatra h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px #000;
+  font-weight: bold;
+}
+
+.descricao-cleopatra p {
+  font-size: 0.9em;
+  line-height: 1.6;
+  text-shadow: 1px 1px 2px #000;
+}
+

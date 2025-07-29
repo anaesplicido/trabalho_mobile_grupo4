@@ -25,11 +25,11 @@
               Cataratas do Iguaçu, no sul.</p>
         </div>
         <div class="image-right">
-          <img src="./assets/bandeira-nacional-brasil.jpg" alt="Bandeira Brasil" />
+          <img src="./assets/bandeira-nacional-brasil.jpg" alt="bandeira do brasil">
         </div>
-      </section>
+    </section>
   
-      <section class="content-row2">
+    <section class="content-row2">
         <div class="text-left">
           <p>O Egito, um país que liga o
             nordeste da África ao Oriente
@@ -39,11 +39,11 @@
             do fértil vale do rio Nilo.</p>
         </div>
         <div class="image-right">
-          <img src="./assets/Flag_of_Egypt.svg" alt="Bandeira Egito" />
+          <img src="./assets/Flag_of_Egypt.svg" alt="bandeira do egito">
         </div>
-      </section>
+    </section>
 
-      <section class="content-row3">
+    <section class="content-row3">
         <div class="text-left">
           <p>Os EUA são um país com 50 estados 
             que cobrem uma vasta faixa da América 
@@ -52,11 +52,11 @@
             a presença do país.</p>
         </div>
         <div class="image-right">
-          <img src="./assets/bandeira_americana_bb.webp" alt="Bandeira EUA" />
+          <img src="./assets/bandeira_americana_bb.webp" alt="">
         </div>
-      </section>
+    </section>
 
-      <section class="content-row4">
+    <section class="content-row4">
         <div class="text-left">
           <p>A Alemanha é um país situado na Europa 
             Ocidental com uma paisagem de florestas,
@@ -65,22 +65,50 @@
             história.</p>
         </div>
         <div class="image-right">
-          <img src="./assets/Flag_of_Germany.svg" alt="Bandeira Alemanha" />
+          <img src="./assets/Flag_of_Germany.svg" alt="bandeira da alemanha">
         </div>
-      </section>
+    </section>
 
-      <section class="content-row5">
-        <div class="text-left">
-          <p>O Reino Unido  é uma nação insular 
-            situada no noroeste da Europa. A 
-            Inglaterra, local de nascimento de 
-            Shakespeare e dos Beatles, abriga a 
-            capital, Londres, um centro financeiro 
-            e cultural globalmente influente.</p>
-        </div>
-        <div class="image-right">
-          <img src="./assets/Flag_of_the_United_Kingdom_(3-5).svg.png" alt="Bandeira Reino Unido" />
-        </div>
-      </section>
-
-</body>
+    <section class="content-row5">
+      <div class="text-left">
+        <p>O Reino Unido  é uma nação insular 
+          situada no noroeste da Europa. A 
+          Inglaterra, local de nascimento de 
+          Shakespeare e dos Beatles, abriga a 
+          capital, Londres, um centro financeiro 
+          e cultural globalmente influente.</p>
+      </div>
+      <div class="image-right">
+        <img src="./assets/Flag_of_the_United_Kingdom_(3-5).svg.png" alt="bandeira do reino unido">
+      </div>
+            <script>
+              document.addEventListener('DOMContentLoaded', () => {
+                  // Função para buscar os dados de um país específico
+                  async function fetchCountryData(countryCode, flagId) {
+                      try {
+                          // URL da API Restcountries para um país específico
+                          const response = await fetch(`https://restcountries.com/v3.1/alpha/${countryCode}`);
+                          const country = await response.json();
+      
+                          // Dados do país
+                          const countryData = country[0]; // A API retorna uma lista, então pegamos o primeiro item
+      
+                          // Preenchendo a bandeira do país
+                          document.querySelector(`#${flagId}`).src = countryData.flags.svg;
+      
+                      } catch (error) {
+                          console.error("Erro ao buscar dados do país:", error);
+                      }
+                  }
+      
+                  // Carregar dados dos países assim que a página for carregada
+                  fetchCountryData('BR', 'brazil-flag');   // Brasil
+                  fetchCountryData('EG', 'egypt-flag');    // Egito
+                  fetchCountryData('US', 'usa-flag');      // EUA
+                  fetchCountryData('DE', 'germany-flag');  // Alemanha
+                  fetchCountryData('GB', 'uk-flag');       // Reino Unido
+              });
+          </script>
+      
+      </body>
+      </html>
