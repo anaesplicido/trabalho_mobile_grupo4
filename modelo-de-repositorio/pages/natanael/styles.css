@@ -223,37 +223,23 @@ strong {
 /* Timeline */
 .timeline {
   position: relative;
-
   padding: 20px 0;
-
 }
 
 .timeline::before {
-
   content: '';
-
   position: absolute;
-
   left: 50%;
-
   width: 4px;
-
   height: 100%;
-
   background: var(--gold);
-
   transform: translateX(-50%);
-
 }
 
 .timeline-item {
-
   display: flex;
-
   margin-bottom: 40px;
-
   position: relative;
-
 }
 
 .timeline-year {
