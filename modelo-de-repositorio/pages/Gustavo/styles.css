@@ -29,7 +29,7 @@ body {
     
     text-align: center;
     background-color: rgb(165, 0, 0);
-    height: 250px;
+    height: 210px;
     width: 800px;
     }
     
@@ -188,6 +188,11 @@ body {
                 
                     margin-left: -600%;
                 }
+
+                #radio8:checked ~.first {
+                
+                    margin-left: -700%;
+                }
                 
                 .navigation-auto div{
                 border: 2px solid #20f8ff;
@@ -278,6 +283,13 @@ body {
                                     
                                     }
 
+                                    #radio8:checked ~ .navigation-auto .auto-btn8{ 
+                
+                
+                                        background-color: aliceblue;
+                                        
+                                        }
+
 
                                     .bandeira{
     
@@ -285,4 +297,14 @@ body {
                                         background-color: dimgray;
                                         height: 857px;
                                         width: 800px;
+                                        }
+
+                                        .Feriados{
+
+
+
+                                            text-align: center;
+                                            background-color: dimgray;
+                                            height: 500px;
+                                            width: 800px;
                                         }
