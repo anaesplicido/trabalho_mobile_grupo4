@@ -51,10 +51,6 @@ document.querySelectorAll('.navbar-nav .nav-link').forEach(anchor => {
       const targetElement = document.querySelector(targetId);
 
       if (targetElement) {
-        // Atualiza a URL sem recarregar (SPA)
-history.pushState(null, null, targetId);
-// Garante que o link ativo seja destacado
-updateActiveLink();
         window.scrollTo({
           top: targetElement.offsetTop - 70,
           behavior: 'smooth'
@@ -62,29 +58,4 @@ updateActiveLink();
       }
     }
   });
-});
-// Corrige a navegação quando a página é carregada com hash (ex: site.com/#turismo)
-window.addEventListener('load', () => {
-  if (window.location.hash) {
-    const targetElement = document.querySelector(window.location.hash);
-    if (targetElement) {
-      window.scrollTo({
-        top: targetElement.offsetTop - 70,
-        behavior: 'auto'
-      });
-    }
-  }
-});
-
-// Corrige o botão voltar/avançar do navegador
-window.addEventListener('hashchange', () => {
-  if (window.location.hash) {
-    const targetElement = document.querySelector(window.location.hash);
-    if (targetElement) {
-      window.scrollTo({
-        top: targetElement.offsetTop - 70,
-        behavior: 'smooth'
-      });
-    }
-  }
 });
