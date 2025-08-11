@@ -9,7 +9,9 @@ Os países escolhidos para nosso app foram os:
 - Egito - Nicolly
 - EUA - Ana Clara
 - Reino Unido - Gustavo
-- Alemanha - Natanael 
+- Alemanha - Natanael
+
+Link protótipo Figma: https://www.figma.com/proto/jQsjlUhwyuqUyJBgkhlr1c/Untitled?node-id=0-1&t=7nMjgmHZxrvA7bBx-1
 
 A página inicial do app, no caso sua home, concluída pela Ana Clara, é uma página que contém o cadastro do usuário (E-mail e senha), uma navbar responsiva que te leva as outras telas do aplicativo, referenciado pelo nome de cada país, e para a página Lista de países e o footer.
 
