@@ -81,6 +81,7 @@ A página sobre a Alemanha, feita pelo Natanael, descreve um pouco sobre a capit
   <img width="457" height="811" alt="image" src="https://github.com/user-attachments/assets/36f36750-1440-462e-ad3c-ab954184d25b" />
 </p>
 
+Por fim, este é o trabalho desenvolvido pelo grupo 4 sobre países ao redor do mundo, com várias curiosidades e características marcantes sobre cada nacionalidade!
 
 
 
