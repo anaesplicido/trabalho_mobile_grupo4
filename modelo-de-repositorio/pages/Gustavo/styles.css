@@ -1,310 +1,75 @@
 body {
-    background-color: rgb(19, 19, 144);
-    color: aliceblue;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
     text-align: center;
+    padding: 20px;
+    background-color: #1a237e;
+    color: white;
+    margin-bottom: 30px;
+}
 
-    
-    font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    }
-    
-    #titulo {
-         text-align: center;
+.navbar {
+    background-color: #1a237e !important;
+}
 
+.navbar-brand, .nav-link {
+    color: white !important;
+}
 
-         
+.content-section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
 
-    font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
+.content-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
 
-
-
-    }
-    
-    .reinounidoresumo{
-    
-    text-align: center;
-    background-color: rgb(165, 0, 0);
-    height: 210px;
-    width: 800px;
-    }
-    
-    .stone{
-    
-    text-align: center;
-    background-color: dimgray;
+.slider {
+    position: relative;
+    width: 100%;
     height: 500px;
-    width: 800px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .slider {
+        height: 300px;
     }
     
-    #fotoetexto{
-    
-        align-items: center; 
-            
-        justify-content: space-around ;
-        
-        
-        display: flex;
+    .content-section {
+        margin: 20px 10px;
     }
-
-    .pedrarolando{
-    
-        text-align: center;
-        background-color: dimgray;
-        height: 250px;
-        width: 390px;
-        }
-
-        .peixe{
-    
-            text-align: center;
-            background-color: dimgray;
-            height: 500px;
-            width: 800px;
-            }
-
-            .actionfigures {
-
-   
-   
-                text-align: center;        
-                    justify-content: space-around ;
-                    
-                
-                position: absolute;
-                    display: flex;
-                
-            }                
-
-            .slider{
-
-                width: 800px;
-                height: 800px;
-                overflow: hidden;
-                
-                    
-                    margin: 0 auto;
-                }
-                
-                .slide {
-                
-                width: 800px;
-                height:  800px;
-                text-align: center;
-                display: flex;
-                }
-                
-                
-                .slide input {
-                
-                
-                    display: none;
-                }
-                
-                .slidekomi {
-                
-                width: 800px;
-               
-                }
-                
-                .slideshinobu {
-                
-                    width: 800px;
-                    height: 800px;
-                    }
-                
-                    
-                .slidejinx {
-                
-                        width:800px;
-                        height: 800px;
-                        }
-                
-                .slidehinata {
-                
-                            width: 800px;
-                            height: 800px;
-                            }
-                
-                            .slide img {
-                
-                width: 800px;
-                height: 800px;
-                
-                            }
-                
-                
-                .manual {
-                
-                position: absolute;
-                width: 400px;
-                
-                display: flex;
-                justify-content: center;
-                margin-top: 360px;
-                
-                }
-                
-              
-                
-                
-                #radio1:checked ~ .first{
-                
-                    margin-left: 0%;
-                }
-                
-                #radio2:checked ~ .first {
-                
-                    margin-left: -100.5%;
-                }
-                
-                #radio3:checked ~.first {
-                
-                    margin-left: -200%;
-                }
-                
-                #radio4:checked ~.first {
-                
-                    margin-left: -300%;
-                }
-
-                #radio5:checked ~.first {
-                
-                    margin-left: -400%;
-                }
-
-
-        
-                #radio6:checked ~.first {
-                
-                    margin-left: -500%;
-                }
-
-                #radio7:checked ~.first {
-                
-                    margin-left: -600%;
-                }
-
-                #radio8:checked ~.first {
-                
-                    margin-left: -700%;
-                }
-                
-                .navigation-auto div{
-                border: 2px solid #20f8ff;
-                
-                padding: 25px;
-                
-                border-radius: 10px;
-                
-                cursor: pointer;
-                transition: 1s;
-                
-                
-                
-                }
-                
-                
-                
-                .navigation-auto{ 
-                
-                width: 750px;
-                margin-top: 680px;
-                display: flex;
-                    position: absolute;
-                
-                    justify-content: center;
-                }
-                
-                .navigation-auto div:not(:last-child) {
-                
-                    margin-right: 40px;
-                }
-                
-                #radio1:checked ~ .navigation-auto .auto-btn1{ 
-                
-                
-                background-color: aliceblue;
-                
-                }
-                
-                #radio1:checked ~ .navigation-auto .auto-btn1{ 
-                
-                
-                    background-color: aliceblue;
-                    
-                    }
-                
-                    #radio2:checked ~ .navigation-auto .auto-btn2{ 
-                
-                
-                        background-color: aliceblue;
-                        
-                        }
-                
-                        #radio3:checked ~ .navigation-auto .auto-btn3{ 
-                
-                
-                            background-color: aliceblue;
-                            
-                            }
-                
-                            #radio4:checked ~ .navigation-auto .auto-btn4{ 
-                
-                
-                                background-color: aliceblue;
-                                
-                                }
-                                
-                                
-                            #radio5:checked ~ .navigation-auto .auto-btn5{ 
-                
-                
-                                background-color: aliceblue;
-                                
-                                }
-
-                                              
-                            #radio6:checked ~ .navigation-auto .auto-btn6{ 
-                
-                
-                                background-color: aliceblue;
-                                
-                                }
-
-                                #radio7:checked ~ .navigation-auto .auto-btn7{ 
-                
-                
-                                    background-color: aliceblue;
-                                    
-                                    }
-
-                                    #radio8:checked ~ .navigation-auto .auto-btn8{ 
-                
-                
-                                        background-color: aliceblue;
-                                        
-                                        }
-
-
-                                    .bandeira{
-    
-                                        text-align: center;
-                                        background-color: dimgray;
-                                        height: 857px;
-                                        width: 800px;
-                                        }
-
-                                        .Feriados{
-
-
-
-                                            text-align: center;
-                                            background-color: dimgray;
-                                            height: 500px;
-                                            width: 800px;
-                                        }
+}
