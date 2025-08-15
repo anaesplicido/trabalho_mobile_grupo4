@@ -5,19 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Estados Unidos da América </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./styles.css">
 </head>
 
 
 <body>
-    <header>
-        <div class="logo">
-            <h1>Estados Unidos</h1>
-       </div>
-    </header>
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fas fa-globe-europe me-2"></i>Estados Unidos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#bandeira"><i class="fas fa-home me-1"></i>Bandeira</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#capital"><i class="fas fa-info-circle me-1"></i>Capital</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#moeda"><i class="fas fa-camera me-1"></i>Moeda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#população"><i class="fas fa-theater-masks me-1"></i>População</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#historia"><i class="fas fa-landmark me-1"></i>História</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar...">
+          <button class="btn btn-outline-dark" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
 
-    <section class="content-row">
+    <section class="content-row" id="bandeira">
       <div class="text-left">
         <p>A bandeira dos EUA possui
           treze faixas horizontais alter
@@ -35,7 +63,7 @@
     </section>
 
 
-    <section class="content-row2">
+    <section class="content-row2" id="capital">
       <div class="image-left">
         <img src="./assets/Capital-dos-Estados-Unidos.jpg" alt="Imagem capital" />
       </div>
@@ -50,7 +78,7 @@
     </section>
 
 
-    <section class="content-row3">
+    <section class="content-row3" id="moeda">
       <div class="text-left">
         <p>A moeda oficial dos Estados Unidos
           é o dólar americano. Existem sete
@@ -63,7 +91,7 @@
     </section>
 
 
-    <section class="content-row4">
+    <section class="content-row4" id="população">
       <div class="image-left">
         <img src="./assets/população-dos-estados-unidos-representados-pelo-caráter-d-no-fundo-branco-30018333.webp" alt="Imagem população" />
       </div>

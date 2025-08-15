@@ -4,180 +4,236 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reino Unido</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Reino Unido</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#resumo">Resumo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#culinaria">Culinária</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#turismo">Turismo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#bandas">Bandas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#bandeira">Bandeira</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#festas">Festas</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
     <div id="titulo">
         <h1>Reino Unido</h1>
-    
     </div>
     
-    <div class="reinounidoresumo">
-        <h1>O Reino Unido é uma nação composta por quatro países: Inglaterra, Escócia, País de Gales e Irlanda do Norte. A Inglaterra, local de nascimento de Shakespeare e dos Beatles, abriga a capital, Londres, um centro financeiro e cultural globalmente influente.</h1>
-    
-    </div>
+    <section id="resumo" class="content-section">
+        <h2>Resumo</h2>
+        <p>O Reino Unido surgiu em 1922 e é uma nação composta por quatro países: Inglaterra, Escócia, País de Gales e Irlanda do Norte. A Inglaterra, local de nascimento de Shakespeare e dos Beatles, abriga a capital, Londres, um centro financeiro e cultural globalmente influente.</p>
+    </section>
 
-<div id="titulo"><h1>Culinária:</h1></div>
+    <section id="culinaria" class="content-section">
+        <h2>Culinária</h2>
+        <p>Alguns pratos típicos do Reino Unido são o Fish And Chips (peixe com batata frita), o Sunday Roast (jantar de domingo com carne assada e acompanhamentos), o Full English Breakfast (café da manhã inglês completo) e o Shepherd's Pie (torta de carne de cordeiro com purê de batatas).</p>
+        <img src="assets/pexe.jpg" alt="Fish and Chips" class="content-image">
+    </section>
 
-<div class="peixe">
-
-<h1>Fish And Chips</h1>
-<div id="fotoetexto">
-
-    <h1>É um prato típico dos inglêses, ele consiste em um peixe frito(dizem que o melhor para usar é o bacalhau) envolvido em um polme e batatas fritas, é um prato que surgiu no século XIX e se popularizou por se um prato rápido de se fazer e ser bem acessível.</h1>
-
-    <img src="assets/pexe.jpg" alt="" width="400px" height="400px">
-
-</div>
-
-</div>
-
-    <div id="titulo"><h1>Locais a se Visitar:</h1></div>
-    <div class="stone">
-    
-        <h1>Stonehenge</h1>
-        <div id="fotoetexto">
-    
-            <h1>É um monumento pré-histórico de círculo de pedras localizado na Inglaterra, construído em várias etapas, com o principal círculo de pedras erguido por volta de 2500 a.C. Com um propósito ainda incerto.</h1>
-            <img src="assets/stonehenge.jpg" alt="" width="400px" height="400px">
+    <section id="turismo" class="content-section">
+        <h2>Locais a se Visitar</h2>
+        <p>O Reino Unido é um local recheado de pontos turísticos, o local é onde se encontra o Stonehenge, o relógio Big Ben, a Torre de Londres, o Castelo de Edimburgo, Terras Altas, o Lago Ness, o Museu do Titanic, a Calçada dos Gigantes, entre muitos outros locais.</p>
+        <img src="assets/stonehenge.jpg" alt="Stonehenge" class="content-image">
+    </section>
+     
+    <section id="bandas" class="content-section">
+        <h2>Bandas Famosas</h2>
+        <div class="slider">
+            <div class="slide active">
+                <img src="assets/pedrarolando.jpg" alt="The Rolling Stones">
+            </div>
+            <div class="slide">
+                <img src="assets/floydrosa.jpg" alt="Pink Floyd">
+            </div>
+            <div class="slide">
+                <img src="assets/rainha.jpg" alt="Queen">
+            </div>
+            <div class="slide">
+                <img src="assets/mista.png" alt="The Who">
+            </div>
+            <div class="slide">
+                <img src="assets/damanferrujada.svg" alt="Iron Maiden">
+            </div>
+            <div class="slide">
+                <img src="assets/forçadodragão.webp" alt="Led Zeppelin">
+            </div>
+            <div class="slide">
+                <img src="assets/gorilaz.jpg" alt="Gorillaz">
+            </div>
+            <div class="slide">
+                <img src="assets/osbeatles.webp" alt="The Beatles">
+            </div>
         </div>
-    </div>
-     
-    
-   <div id="titulo">
-    <h1>Bandas:</h1>
-</div> 
+    </section>
 
+    <section id="bandeira" class="content-section">
+        <h2>Bandeira do Reino Unido</h2>
+        <img src="assets/bandeiradoreinounido.webp" alt="Bandeira do Reino Unido" class="content-image">
+        <h3>Qual seu contexto?</h3>
+        <p>Ela representa a união dos três países. Ao prestar atenção, você percebe que se separar os elementos, irá se formar a bandeira de cada país: a cruz vermelha é a de São Jorge (Inglaterra), a cruz branca é a de Santo André (Escócia) e a cruz vermelha em diagonal é a de São Patrício (Irlanda do Norte). A sobreposição dessas cruzes na bandeira simboliza a união e a história compartilhada desses países sob o mesmo Reino Unido. A bandeira é um símbolo de identidade nacional e herança histórica para o Reino Unido.</p>
+    </section>
 
+    <section id="festas" class="content-section">
+        <h2>Festas e Tradições</h2>
+        <p>O Reino Unido tem várias festividades únicas, como por exemplo o Dia de Guy Fawkes (Bonfire Night), Carnaval de Notting Hill, Dia de São Jorge, Boxing Day e muitos outros.</p>
+        <img src="assets/guyfawkes.jpg" alt="Guy Fawkes Night" class="content-image">
+    </section>
 
-
-<div id="actionfigures">
-    
-    
-    
-    <div class="slider ">
-        
-        <div class="slide">
-            
-            
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
-            <input type="radio" name="radio-btn" id="radio4">
-            <input type="radio" name="radio-btn" id="radio5">
-            <input type="radio" name="radio-btn" id="radio6">    
-            <input type="radio" name="radio-btn" id="radio7">
-
-    
-    <div class="slide first">
-        <img src="assets/pedrarolando.jpg" alt="kominen" width="800" height="800">
-        
-    </div>
-    
-    <div class="slide">
-        
-        
-            <img src="assets/floydrosa.jpg" alt="hinatanen" width="800" height="800">
-            
-            
-        
-        
-    </div>
-    
-    
-    <div class="slide">
-        
-        <img src="assets/rainha.jpg" alt="jinxnen" width="800" height="800">
-        
-    </div>
-    
-    
-    <div class="slide">
-
- <img src="assets/mista.png" alt="shinobunen" width="800" height="800">
-
-    
-</div>
-
-<div class="slide">
-
-    <img src="assets/damanferrujada.svg" alt="shinobunen" width="800" height="800">
-   
-       
-   </div>
-
-   <div class="slide">
-
-    <img src="assets/forçadodragão.webp" alt="shinobunen" width="800" height="800">
-   
-       
-   </div>
-
-   <div class="slide">
-
-    <img src="assets/gorilaz.jpg " alt="shinobunen" width="800" height="800">
-   
-       
-   </div>
-
-
-<div class="navigation-auto">
-    
-    <div class="auto-btn1"></div>
-    <div class="auto-btn2"></div>
-    <div class="auto-btn3"></div>
-    <div class="auto-btn4"></div>
-    <div class="auto-btn5"></div>
-    <div class="auto-btn6"></div>
-    <div class="auto-btn7"></div>
-    
- </div>
-
-
- 
- 
- 
- 
- <div class="manual">
-     
-     <label for="radio1" class="manual-btn"></label>
-     <label for="radio2" class="manual-btn"></label>
-     <label for="radio3" class="manual-btn"></label>
-     <label for="radio4" class="manual-btn"></label>
-     <label for="radio5" class="manual-btn"></label>
-
-    </div>
-    
-</div>
-
-</div>
-
-
-<div class="bandeira">
-
-    <h1>bandeira do Reino Unido:</h1>
-    <img src="assets/bandeiradoreinounido.webp" alt="" height="350px" width="700"> 
-
-<h1>Qual seu contexto?</h1>
-<h1>Ela representa a união dos três países, ao prestar atenção, você percebe que se separar os elementons, irá se formar a banderia de cada país, sendo a cruz vermelha a de São Jorge(Inglaterra), a cruz branca de Santo André(Escócia) e a cruz vermelha em diagonal a de São Pratrício(Irlanda do Norte). A sobreposição dessas cruzes na bandeira simboliza a união e a história compartilhada desses países sob o mesmo Reino Unido. A bandeira é um símbolo de identidade nacional e herança histórica para o Reino Unido. 
-</h1>
-
-</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
 
 
 
 
 
-<script src="script.js"></script>
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1>Lee, oh Lee, o que foi que eu fiz? Olha só para você, nem está consciente e continua se empenhando em mostrar para o mundo o que pode fazer. Ele está nocauteado, tudo que o mantém de pé é o poder de sua vontade.</h1>
 </body>
 </html>

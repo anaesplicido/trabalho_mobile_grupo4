@@ -1,12 +1,17 @@
+:root {
+  --gold: #0016A4;
+  --black: #000000;
+  --red: #DD0000;
+  --light-gold: #FFF9C4;
+  --dark-gold: #D4AF37;
+}
+
 body {
   font-family: 'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
   background-color: #FF0000;
 }
-
-
-
 
 header {
   background-color: #0016A4;
@@ -16,13 +21,53 @@ header {
   font-family: 'Times New Roman', Times, serif;
 }
 
-
-
-
 header .logo h1 {
   margin: 0;
 }
 
+.navbar-custom {
+  background-color: var(--gold);
+  border-bottom: 3px solid var(--dark-gold);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+  color: var(--black);
+  font-size: 1.4rem;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: var(--black);
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin: 0 2px;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+  background-color: var(--dark-gold);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.navbar-custom .nav-link.active {
+  background-color: var(--dark-gold);
+  color: white !important;
+  border-radius: 4px;
+}
+
+.navbar-custom .btn-outline-dark {
+  border-color: var(--black);
+  color: var(--black);
+  font-weight: 500;
+}
+
+.navbar-custom .btn-outline-dark:hover {
+  background-color: var(--black);
+  color: var(--gold);
+}
 
 * {
 box-sizing: border-box;
