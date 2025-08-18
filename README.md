@@ -1,4 +1,4 @@
-**World Explore **
+**World Explore**
 
 Bem vindo ao World Explore app, este aplicativo foi desenvolvido pelos alunos: Ana Clara, Nicolly Pruchak, Mateus Evandro, Natanael Przybysz e Gustavo Alves.
 
