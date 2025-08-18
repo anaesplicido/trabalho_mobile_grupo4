@@ -52,8 +52,8 @@ Abaixo, seguem algumas imagens da tela criada:
 A aba sobre o Estados Unidos da América, feita pela Ana Clara, descreve um pouco sobre a capital, a bandeira, a população e a moeda, assim como na prototipação. Assim como as imagens a seguir:
 
 <p align="center">
-<img width="453" height="808" alt="image" src="https://github.com/user-attachments/assets/124fac59-122a-4042-8a30-597173e7bb63" />
-<img width="457" height="812" alt="image" src="https://github.com/user-attachments/assets/98f601f4-a386-4c13-8fba-97d839b612d9" />
+<img width="456" height="812" alt="image" src="https://github.com/user-attachments/assets/c7ee01bf-0bbe-4dca-ab1f-ec4b2b0c365b" />
+<img width="456" height="812" alt="image" src="https://github.com/user-attachments/assets/a60f88bc-26cc-4af0-983d-44a84ee4891d" />
 </p>
 
 A página do Reino Unido, concluída pelo aluno Guatavo, contém a capital, a bandeira, a população e a moeda, com um extra, sobre as bandas nacionais. Assim como nas imagens mostradas a baixo:
