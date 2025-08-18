@@ -1,4 +1,4 @@
-World Explore 
+**World Explore **
 
 Bem vindo ao World Explore app, este aplicativo foi desenvolvido pelos alunos: Ana Clara, Nicolly Pruchak, Mateus Evandro, Natanael Przybysz e Gustavo Alves.
 
@@ -13,6 +13,8 @@ Os países escolhidos para nosso app foram os:
 
 Link protótipo Figma: https://www.figma.com/proto/jQsjlUhwyuqUyJBgkhlr1c/Untitled?node-id=0-1&t=7nMjgmHZxrvA7bBx-1
 
+<hr>
+
 A página inicial do app, no caso sua home, concluída pela Ana Clara, é uma página que contém o cadastro do usuário (E-mail e senha), uma navbar responsiva que te leva as outras telas do aplicativo, referenciado pelo nome de cada país, e para a página Lista de países e o footer.
 
 <p align="center">
@@ -20,12 +22,16 @@ A página inicial do app, no caso sua home, concluída pela Ana Clara, é uma p�
 <img width="456" height="811" alt="image" src="https://github.com/user-attachments/assets/81dfc37a-80df-457b-9e9a-e8754fe0c555" />
 </p>
 
+<hr>
+
 A Lista de Países é uma das abas príncipais do app, efito por Ana Clara, ela abrange um breve resumo sobre cada país incluido no aplicativo, resaltando sua história e persuadindo o usuário a ver o app do início ao fim, além disso, cada nação está referenciada com a sua devida bandeira, como nos prints abaixo:
 
 <p align="center">
 <img width="457" height="811" alt="image" src="https://github.com/user-attachments/assets/9bed5389-85af-4ee7-95d0-da8c390935ca" />
 <img width="456" height="812" alt="image" src="https://github.com/user-attachments/assets/b54c4220-f321-48b2-a377-c65b5519f982" />
 </p>
+
+<hr>
 
 A página Brasil, concluída pelo aluno Mateus, contém a capital, a bandeira, a população e a moeda, com um extra, sobre o atual presidente nacional. Assim como nas imagens mostradas a baixo:
 
@@ -35,6 +41,8 @@ A página Brasil, concluída pelo aluno Mateus, contém a capital, a bandeira, a
 <img width="455" height="808" alt="image" src="https://github.com/user-attachments/assets/4cbf05b2-be0f-4449-a4ac-fe8f84984399" />
 <img width="457" height="810" alt="image" src="https://github.com/user-attachments/assets/eb35f60a-5a4c-400c-9ac2-f6c96b002ee4" />
 </p>
+
+<hr>
 
 A página sobre o Egito, desenvolvida por Nicolly, apresenta informações como capital, população, moeda e curiosidades culturais.  
 O design foi inspirado na estética egípcia, com elementos visuais que ajudam na imersão do usuário.  
@@ -47,7 +55,7 @@ Abaixo, seguem algumas imagens da tela criada:
   <img src="modelo-de-repositorio/pages/NicollyEgito/assets/cleopatra.png" alt="Cleópatra" width="300" />
 </p>
 
-
+<hr>
 
 A aba sobre o Estados Unidos da América, feita pela Ana Clara, descreve um pouco sobre a capital, a bandeira, a população e a moeda, assim como na prototipação. Assim como as imagens a seguir:
 
@@ -56,6 +64,8 @@ A aba sobre o Estados Unidos da América, feita pela Ana Clara, descreve um pouc
 <img width="456" height="812" alt="image" src="https://github.com/user-attachments/assets/a60f88bc-26cc-4af0-983d-44a84ee4891d" />
 </p>
 
+<hr>
+
 A página do Reino Unido, concluída pelo aluno Guatavo, contém a capital, a bandeira, a população e a moeda, com um extra, sobre as bandas nacionais. Assim como nas imagens mostradas a baixo:
 
 <p align="center">
@@ -63,6 +73,8 @@ A página do Reino Unido, concluída pelo aluno Guatavo, contém a capital, a ba
 <img width="456" height="812" alt="image" src="https://github.com/user-attachments/assets/62f5460b-d79c-44b9-bdaa-4c444607ece6" />
 <img width="453" height="807" alt="image" src="https://github.com/user-attachments/assets/84fad09b-5b66-4ad7-8e49-644e7acb2c4d" />
 </p>
+
+<hr>
 
 A página sobre a Alemanha, feita pelo Natanael, descreve um pouco sobre a capital, a bandeira, a população e a moeda, assim como no figma. Assim como as imagens a seguir:
 
